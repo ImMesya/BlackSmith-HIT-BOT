@@ -18,10 +18,11 @@ def get_main_color(img):
         return most_present
     except Exception:
         pass
+
 if __name__ == '__main__':
     while True:
         if ask == '1':
-            screen = ImageGrab.grab(bbox=(290, 360, 360, 200))
+            screen = ImageGrab.grab(bbox=(290, 360, 360, 400))
         elif ask == '2':
             screen = ImageGrab.grab(bbox=(345, 195, 360, 200))
         else:
